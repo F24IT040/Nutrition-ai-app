@@ -10,7 +10,7 @@ A small React + Vite nutrition tracker with a Groq-powered food estimator. Daily
 
    ```env
    GROQ_API_KEY=gsk_your_real_key_here
-   GROQ_MODEL=llama-3.3-70b-versatile
+   GROQ_MODEL=openai/gpt-oss-20b
    PORT=3001
    ```
 

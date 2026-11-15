@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .env
+.env.production
 server/nutrition-log.json
 android/.gradle/
 android/build/

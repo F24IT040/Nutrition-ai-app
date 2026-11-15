@@ -28,7 +28,7 @@ app.post('/api/estimate', async (req, res) => {
       method: 'POST',
       headers: { 'Authorization': `Bearer ${process.env.GROQ_API_KEY}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: process.env.GROQ_MODEL || 'llama-3.3-70b-versatile',
+        model: process.env.GROQ_MODEL || 'openai/gpt-oss-20b',
         temperature: 0.15,
         max_tokens: 1200,
         response_format: { type: 'json_object' },
